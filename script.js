@@ -1,12 +1,4 @@
-/*function casuali() {
-    numeri = parseInt(document.getElementById("quanti").value);
-    
-     document.getElementById("numeri").innerHTML = "Numeri generati: " + str;
-     } 
-     else {
-        document.getElementById("numeri").innerHTML = "Inserisci un numero maggiore di 0 e inferiore a 100";
-     }
-  }*/
+
   
   let array = [];
   let numeri = document.getElementById("Numeri casuali");
@@ -27,29 +19,22 @@
   }
   setTimeout (creanumeri,3000)
   })
-
-
-
- 
-  
-  //setTimeoput("funzione cancella numeri e chiedi valori all'utente"30secondi 30000)
-
-
+  //setTimeoput("funzione cancella numeri e chiedi valori all'utente"30secondi 3000
 function creanumeri(){
-  //cancella i numeri
-  //chiedere i numeri all'utente 
-  //confrontare i numeri 
-  //hai vinto/hai perso
+ 
   prompt('inserisci un numero');
   let nUtente ='';
   console.log(nUtente);
-  if (nUtente == array.lenght){
+  if (nUtente == array[i]){
     prompt("Hai vinto");
   } else{
     prompt ("Hai perso");
   }
 }
-
+ //cancella i numeri
+  //chiedere i numeri all'utente 
+  //confrontare i numeri 
+  //hai vinto/hai perso
 
 
 
@@ -68,12 +53,3 @@ function creanumeri(){
 
   //document.getElementById("Numeri casuali").innerHTML
 
- /* if (n <= 100) {
-    = "";
-    for (i = 0; i < n; i++) {
-         num = Math.round(Math.random()*100 + 1);
-         if (i > 0) {
-           += ", ";
-         }
-         += num;
-     }*/
