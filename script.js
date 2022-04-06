@@ -10,15 +10,16 @@
   
   let array = [];
   let numeri = document.getElementById("Numeri casuali");
+  function casuale(){
+    let ncasuali = Math.random() * 100;
+    return ncasuali
+}
   while(array.length < 5 ){
-      function casuale(){
-          Math.round(math.random() * 101);
-          console.log(casuale);
-          
-      }
+      array.push(casuale())
+     
   }
-
-
+  
+  
 
 
 
